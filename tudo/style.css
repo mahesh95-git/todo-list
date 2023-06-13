@@ -1,0 +1,113 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #f2f2f2;
+
+}
+.head{
+    text-align: center;
+    background-color: rgb(211, 201, 201);
+}
+.form{
+  align-items: center;
+  
+  text-align: center;
+}
+.form input{
+    width: 400px;
+    margin-bottom: 10px;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    border-radius: 5px;
+    border:solid rgb(63, 62, 64) 2px;
+    font-size: 19px;
+
+
+}
+.form textarea{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 19px;
+    border-radius: 5px;
+    border:solid rgb(63, 62, 64) 2px;
+    color:black;
+}
+.form button{
+    width: 140px;
+    height: 35px;
+    color:rgb(175, 176, 219);
+    border: solid rgb(102, 106, 164);
+    background-color: rgb(58, 69, 169);
+    border-radius: 5px;
+    outline: none;
+ ;
+   
+}
+.form button:hover{
+    color:rgb(254, 254, 254);
+    background-color: rgb(0, 3, 27);
+    cursor: pointer;
+}
+.alltudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+
+}
+.alltudo .tacks{
+    margin-right:100px ;
+}
+.title{
+font-size: 25px;
+
+width: 300px;
+
+text-align: center;
+
+}
+.tudo{
+    margin-top: 10px;
+    
+width: 300px;
+
+    border: solid rgb(102, 106, 164);
+    background-color: rgb(180, 159, 207);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.info{
+    padding-top: 10px;
+    padding-left:10px;
+    font-size: 20px;
+    
+    /* text-align: center; */
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    ;
+}
+.buttonstyle{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 35px;
+    color:rgb(177, 178, 213);
+    background-color: rgb(58, 69, 169);
+    border-radius: 5px;
+    border:solid #14141466 2px;
+}
+.h:hover{
+    cursor: pointer;
+    background-color: rgb(0, 3, 27);
+}
